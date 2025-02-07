@@ -33,7 +33,7 @@ class AuthController {
 
             const user = req.user;
             
-            res.status(200).json({ message: "User logged in successfully", token });
+            res.status(200).json({ message: "User logged in successfully", user : { email : user.email } });
         
     }
 }
