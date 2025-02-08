@@ -4,7 +4,8 @@ const passport = require('passport');
 const express = require('express');
 const authRouter = require ('./routers/auth_router');
 const errorHandler = require('./middlewares/error_handler');
-
+const dotenv = require('dotenv');
+dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(session({
