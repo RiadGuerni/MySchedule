@@ -20,7 +20,7 @@ export default function Hero() {
 
       </div>
 
-      <div className='flex flex-col items-center mt-6 bg-blue-200 w-full'>
+      <div className='flex flex-col items-center mt-6 w-full'>
         <Link href={"/login"}>
           <button className='bg-[#323030] text-white px-12 mt-6 py-2 text-2xl rounded-md hover:bg-[#4e4a4a]'>Start Now</button>
         </Link>
