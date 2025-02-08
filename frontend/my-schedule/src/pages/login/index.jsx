@@ -3,7 +3,7 @@ import { login } from "../../lib/actions"
 import { useFormState } from 'react-dom'
 import Link from 'next/link'
 
-export default function Login() {
+export default function LoginPage() {
     const [state, action] = useFormState(login, null)
   return (
     <div className='flex justify-center items-center h-screen'>
@@ -27,9 +27,15 @@ export default function Login() {
                     {state?.errors?.password && <p className='text-red-500 text-sm ml-2'>{state?.errors.password}</p>}
                 </div>
                 <div className='flex justify-center items-center'>
-                    <button className='bg-[#323030] text-white w-[160px] rounded-md py-[5px] mt-4 hover:bg-[#4e4a4a]'>Login</button>
+                    <Link className='bg-[#323030] text-white w-[160px] rounded-md py-[5px] mt-4 hover:bg-[#4e4a4a] text-center' href='/main'>Login</Link>
                 </div>
             </form>
+
+            <div className='mt-4 flex flex-row gap-1'>
+                <p className='text-sm'>Don't have an account?</p>
+                <Link href='/signup' className='text-sm underline text-blue-600'>Signup</Link>
+            </div>
+            
         </div>
     </div>
   )

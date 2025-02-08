@@ -25,7 +25,7 @@ export async function signup(_, formData) {
         errors: {
             email: undefined,
             password: undefined,
-            repeatPassword: "Mot de passes differents !",
+            repeatPassword: "Different password !",
         }
     }
 
