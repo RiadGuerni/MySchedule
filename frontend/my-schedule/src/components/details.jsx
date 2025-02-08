@@ -1,9 +1,11 @@
 import React from 'react'
 import DetailCard from './DetailCard'
 
+
 export default function Details() {
   return (
     <div>
+
       <h3 className='pb-5 mb-5 mt-12 border-b-2 w-fit border-b-zinc-950 text-4xl font-bold'>Why MySchedule?</h3>
 
       <p className='pb-14 pt-6 text-2xl'>MySchedule helps you create daily plans quickly and efficiently. Simply describe your goals for the day, and MySchedule will generate multiple schedule options for you to choose from. You can easily edit, customize, and copy your preferred schedule directly into Google Calendar.</p>
@@ -15,6 +17,7 @@ export default function Details() {
       <DetailCard title="AI Powered" description="MySchedule utilizes ChatGPT's API to generate your Schedules!" />
       
       </div>
+
     </div>
   )
 }

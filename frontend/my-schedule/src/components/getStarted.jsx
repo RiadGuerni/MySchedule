@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function GetStarted() {
     return (
-        <div className='grid place-content-center'>
-            <p className='text-3xl font-bold m-10'>So what are you waiting for?</p>
-            <button className='text-white bg-[#3B3A3A] rounded-lg text-2xl px-8 py-2'>Create your schedules</button>
+        <div className='flex flex-col justify-center gap-8 items-center place-content-center'>
+            <p className='text-3xl font-bold  mt-16 '>So what are you waiting for?</p>
+            <button className='bg-[#323030] text-white px-12 py-2 text-2xl rounded-md hover:bg-[#4e4a4a]'>Create your schedules</button>
         </div>
 
 
