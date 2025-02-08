@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import Details from "@/components/details";
 import Footer from "@/components/footer";
 import GetStarted from "@/components/getStarted";
+import MainPage from "./main";
 
 
 export default function Home() {
