@@ -4,12 +4,12 @@ import React from 'react'
 export default function Hero() {
   return (
     <div>
-      <div className='mt-4 flex flex-row lg:justify-around gap-0 md:items-center'>
+      <div className='mt-4 flex flex-row lg:justify-between gap-0 items-center md:items-start '>
         <div className='flex flex-col items-center lg:items-start'>
           <p className='font-bold xl:text-7xl xl:w-[650px] mb-8 mr-0 lg:text-6xl md:text-7xl text-5xl lg:w-[450px] md:7xl bt:text-6xl text-center text-wrap lg:text-left smd:text-6xl'>
             Your schedule a few clicks away
           </p>
-          <p className='text-2xl text-center lg:w-[560px] ml-2 font-thin smd:w-[700px]'>
+          <p className='text-2xl text-center md:text-left lg:w-[560px] ml-2 font-thin smd:w-[700px]'>
             MySchedule is a plateform that allows you to generate custom efficient schedules in just a few clicks.
           </p>
 
