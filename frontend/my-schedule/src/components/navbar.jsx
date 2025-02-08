@@ -9,7 +9,7 @@ export default function Navbar() {
             <p className='font-bold text-2xl text-black'>MySchedule</p>
         </div>
 
-        <Link href='/login' className='bg-[#323030] text-white px-10 py-1 text-lg rounded-md hover:bg-[#4e4a4a]'>Login</Link>
+        <Link href='/login' className='bg-[#323030] text-white px-10 py-1 text-lg rounded-md hover:bg-[#4e4a4a] hidden md:block'>Login</Link>
     </nav>
   )
 }
